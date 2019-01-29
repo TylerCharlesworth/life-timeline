@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Google+Sans');
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Google Sans',Roboto,Helvetica,Arial,sans-serif;
+    background: #C10160;
+    color: white;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+section.header {
+    padding: 10px 0 20px 0;
+    flex: 0 50px;
+}
+
+section.main {
+    flex: 1 100%;
+    margin: 3px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#chart {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#chart line {
+    stroke: white;
+}
+
+#chart line.vertical-marker.now {
+    stroke: #F8BB4A;
+}
+
+/* custom colors */
+text {
+    fill: white;
+    font-size: 13pt;
+}
+text.interval-text {
+    display: none;
+}
+
+rect.interval {
+    fill: #118696 !important;
+    stroke: #2DD5E2 !important;
+}
+
+circle.dot {
+    fill: #2DD5E2 !important;
+    stroke: #2DD5E2 !important;
+}
+
+rect.data-inspired-lives, circle.data-inspired-lives {
+    fill: black !important;
+    stroke: black !important;
+}
+rect.data-common-lives, circle.data-common-lives {
+    fill: black !important;
+    stroke: black !important;
+}
+
+/* Override d3tip */
+
+.d3-tip {
+    background: #F8BB4A;
+    color: white;
+}
+
+.d3-tip:after {
+    color: #F8BB4A;
+}
