@@ -6,7 +6,7 @@
 
 ## Functionality
 
-To learn about the goal and conclusion of this project, please see the [Medium article](TODO).
+To learn about the goal and conclusion of this project, please see the [Medium article](https://medium.com/@tylercharlesworth/b8b18cfd6ce5).
 
 
 ## Technical Decisions
